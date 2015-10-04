@@ -1,0 +1,13 @@
+#Website created by 8CTA Design Studio 
+#    Creative director: Adam Gäfvert
+#    Development team: Hamed Abolghasemi, Sherry Khomjani
+#    © 2013 by 8CTA Design Studio
+#    © 2013 by Tomas Jonsgarden
+#    Legal notice !!!
+#    This website is created by 8CTA, www.8CTA.com and is owned by Tomas Jonsgarden, www.tomasjonsgarden.com.
+#    -Web Design&Develpment matrials and codes contains HTML, CSS, JavaScript and PHP files are protected by copyright and they are copyrighted products, all rights reserved by 8CTA.
+#    -Materials, videos and photos are protected by copyright and they are copyrighted products, all rights reserved by Tomas Jonsgarden.
+
+User-agent: *
+Disallow: 
+Sitemap: http://www.tomasjonsgarden.com/

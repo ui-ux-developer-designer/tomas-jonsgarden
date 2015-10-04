@@ -1,0 +1,559 @@
+/* Website created by 8CTA Design Studio 
+    Creative director: Adam Gäfvert
+    Development team: Hamed Abolghasemi, Sherry Khomjani
+    © 2013 by 8CTA Design Studio
+    © 2013 by Tomas Jonsgarden
+    Legal notice !!!
+    This website is created by 8CTA, www.8CTA.com and is owned by Tomas Jonsgarden, www.tomasjonsgarden.com.
+    -Web Design&Develpment matrials and codes contains HTML, CSS, JavaScript and PHP files are protected by copyright and they are copyrighted products, all rights reserved by 8CTA.
+    -Materials, videos and photos are protected by copyright and they are copyrighted products, all rights reserved by Tomas Jonsgarden. */
+
+body {
+    background: url(http://tomasjonsgarden.com/php/random.php);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-color: #000;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #707070;
+    z-index: -1;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: default;
+    overflow: auto;
+    z-index: -1;
+}
+
+#main {
+    background-color: #f00;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 0;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: #707070;
+}
+
+a:hover {
+    color: #fff;
+}
+
+#menu {
+    display: none;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 805px;
+    margin-top: 10px;
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #000;
+    text-align: center;
+    z-index: 10;
+}
+
+.homeMenuButton {
+    margin: 5px;
+    color: #ae1d1e;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menuButton {
+    margin: 10px;
+    color: #707070;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+.homeMenuButton:hover {
+    color: #ff1d1e;
+}
+
+.menuButton:hover {
+    color: #fff;
+}
+
+#content {
+    display: none;
+    position: relative;
+    width: 851px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 0;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000;
+}
+
+.content {
+    position: relative;
+    left: 9px;
+    width: 850px;
+    overflow: hidden;
+    display: none;
+}
+
+.thumbnails {
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+}
+
+.thumbnails:hover {
+}
+
+.thumbnailsTitle {
+    position: relative;
+    bottom: 50px;
+    height: 35px;
+    width: 180px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #000;
+    color: #7d7d7d;
+    font-size: 12.5px;
+    font-weight: bold;
+}
+
+.thumbnailsFrame {
+    margin: 0px;
+    padding: 4px;
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+
+img#portrait {
+    float: left;
+    margin-right: 5px;
+}
+
+#stats {
+    clear: both;
+}
+
+#footerFrame {
+    display: none;
+    position: relative;
+    width: 1024px;
+    height: 178px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+    z-index: 10;
+}
+
+.footer {
+    position: relative;
+    padding-left: 90px;
+    padding-top: 25px;
+    bottom: 0px;
+}
+
+.light {
+    font-size: 11px;
+    font-weight: 100;
+}
+
+.light1 {
+    font-size: 11px;
+    font-weight: 100;
+    float: left;
+}
+
+.medium {
+    font-size: 13px;
+    font-weight: 600;
+    color: #b5b5b5;
+}
+
+.visibleOnHover {
+    display: none;
+    float: right;
+    padding: 0px;
+}
+
+#firstFooterElement {
+    float: left;
+    padding-left: 66px;
+}
+
+#secondFooterElement {
+    float: left;
+}
+
+#thirdFooterElement {
+    float: left;
+}
+
+#fourthFooterElement {
+    float: left;
+}
+
+#exeption {
+    display: none;
+}
+
+#copyrightFooterElement {
+    float: left;
+    padding-left: 66px;
+    margin-top: 12px;
+    font-size: 11px;
+}
+
+.photoThumbnails {
+    background-color: #000;
+    position: relative;
+    left: 0px;
+    height: 150px;
+    width: 200px;
+    padding: 0px;
+    margin: 4px;
+    background-size: cover;
+    background-repeat: no-repeat; /*background-position: center center;*/
+    float: left;
+}
+
+.videoThumbnails {
+    background-color: #000;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    height: 150px;
+    width: 200px;
+    padding: 0px;
+    margin: 4px;
+    background-size: 125%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    float: left;
+}
+
+div.photoThumbnails:hover .photoThumbnailsTitleDescription {
+    color: #000;
+    background-color: #ae1d1e;
+}
+
+div.videoThumbnails:hover .photoThumbnailsTitleDescription {
+    color: #000;
+    background-color: #ae1d1e;
+}
+
+.photoThumbnailsTitleDescription {
+    position: absolute;
+    width: 185px;
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #000;
+    color: #7d7d7d;
+    bottom: 0px;
+}
+
+.photoThumbnailsTitle {
+    font-size: 12.5px;
+    font-weight: bold;
+}
+
+.photoThumbnailsDescription {
+    font-size: 11px;
+    font-weight: 300;
+    vertical-align: text-top;
+}
+
+#cinemaScreen {
+    position: absolute;
+    width: 824px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    margin-top: -376px;
+    margin-left: -402px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    background-color: #000;
+    z-index: 4;
+}
+
+#cinemaScreen {
+    cursor: pointer;
+}
+
+.cinemaButtons {
+    width: 35px;
+    height: 25px;
+    text-align: center;
+    vertical-align: text-top;
+    background-color: #000;
+}
+
+#cinemaNext {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 24px;
+}
+
+#cinemaPreviews {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 24px;
+}
+
+#cinemaClose {
+    float: right;
+    width: 25px;
+    font-size: 20px;
+    z-index: 10;
+}
+
+#cinemaDimScreen {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #000;
+    display: none;
+    z-index: 3;
+    overflow: hidden;
+}
+
+#photographyContent {
+    z-index: -1;
+}
+
+#commercialContent {
+    z-index: -1;
+}
+
+#shortContent {
+    z-index: -1;
+}
+
+#infoContent {
+    z-index: -1;
+}
+
+#infoContentText {
+    padding-left: 20px;
+    padding-right: 405px;
+    text-align: justify;
+}
+
+#homeContent {
+    z-index: -1;
+}
+
+.welcomeScreenContentAFTER {
+}
+
+#welcomeScreenMenu {
+    position: relative;
+    bottom: -430px;
+    right: -628px;
+}
+
+.welcomeScreenMenuButton {
+    min-width: 20px;
+    min-height: 10px;
+    margin: 4px;
+    float: left;
+    background-color: #fff;
+}
+
+.welcomeScreenMenuButton:hover {
+    background-color: #ae1d1e;
+}
+
+.welcomeScreenMenuButtonAFTER {
+    min-width: 20px;
+    min-height: 10px;
+    margin: 4px;
+    float: left;
+    background-color: #ae1d1e;
+}
+
+#welcomeScreenContent {
+    margin-top: 10px;
+    position: relative;
+    left: 5px;
+    width: 680px;
+    height: 494px;
+    z-index: -1;
+}
+
+.welcomeScreenThumbnails {
+    background-color: #000;
+    position: relative;
+    width: 640px;
+    height: 360px;
+    border-left: 92px solid black;
+    border-right: 92px solid black;
+    border-bottom: 92px solid black;
+    border-top: 42px solid black;
+    background-size: 140%;
+    background-position: center center;
+}
+
+#videoCinemaScreen {
+    position: absolute;
+    width: 824px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    margin-top: -376px;
+    margin-left: -402px;
+    vertical-align: middle;
+    text-align: center;
+    float: left;
+    background-color: #000;
+    z-index: 30;
+}
+
+#iframe {
+    width: 100%;
+    height: 100%;
+    max-height: 700px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#myContent6 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #808080;
+    background-color: #000;
+    display: none;
+    z-index: 30;
+}
+
+#remove {
+    position: relative;
+    top: 45%;
+}
+
+#back {
+    display: none;
+}
+
+#reremove {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    text-align: center;
+}
+
+.categoryThumbnails {
+    position: relative;
+    width: 110px;
+    height: 22px;
+    left: -120px;
+    top: -95px;
+    padding: 5px;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    opacity: .6;
+    text-align: center;
+    vertical-align: central;
+}
+
+.welcomeThumbnailsTitleDescription {
+    position: relative;
+    width: 50%;
+    top: 65%;
+    left: 45%;
+    font-size: 14px;
+}
+
+.welcomeThumbnailsTitle {
+    position: relative;
+    height: 75px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    background-color: #ae1d1e;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    opacity: .6;
+}
+
+.watchThumbnails {
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.welcomeThumbnailsDescription {
+    display: none;
+}
+
+#infoText {
+    position: relative;
+    text-shadow: 2px 2px 3px black;
+    width: 750px;
+    left: 10px;
+    color: #dbdbdb;
+}
+
+#awards {
+    position: relative;
+    float: left;
+    padding-left: 5%;
+}
+
+
+#awardsImg {
+    width: 740px;
+}
+
+span {
+    position: relative;
+    top: 3px;
+}
